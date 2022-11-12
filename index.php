@@ -48,6 +48,14 @@
 
                 <? } ?>
 
+                <? if(isset($_GET['login']) && $_GET['login2'] == 'erro' { ?>
+                  
+                  <div class="text-danger">
+                    Faça login antes de acessar.
+                  <div>
+
+                <? } ?>
+
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
             </div>
