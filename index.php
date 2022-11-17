@@ -40,7 +40,7 @@
                   <input name="senha" type="password" class="form-control" placeholder="Senha">
                 </div>
 
-                <? if(isset($_GET['login']) && $_GET['login'] == 'erro' { ?>
+                <? if(isset($_GET['login']) && $_GET['login'] == 'erro'){ ?>
                   
                   <div class="text-danger">
                     Usuário ou senha inválidos(s)
@@ -48,7 +48,7 @@
 
                 <? } ?>
 
-                <? if(isset($_GET['login']) && $_GET['login2'] == 'erro' { ?>
+                <? if(isset($_GET['login']) && $_GET['login2'] == 'erro') { ?>
                   
                   <div class="text-danger">
                     Faça login antes de acessar.
